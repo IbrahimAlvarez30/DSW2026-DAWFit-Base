@@ -27,6 +27,12 @@
     </label>
 </form>
 
+<form action="" method="get">
+    <a>Busqueda: <input name="Busqueda" type="text"></a>
+    <input type="checkbox" name="solo_con_plazas" value="1">
+    <button type="submit">Filtrar</button>
+</form>
+
 {% for act in lista_actividades %}
 <div class="card-actividad">
     <div>
